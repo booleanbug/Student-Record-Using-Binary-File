@@ -1,0 +1,26 @@
+1.  Why to use BINARY FILE instead of TEXT FILE?
+=>  Text files will convert each digit in data into  ASCII  format which will take more space compared to required one,
+    It saves the memory by storing any data as per its memory size
+
+2.  Does fopen & fclose act same in text file & binary file?
+=>  YES
+
+3.  What is job of fread?
+=> fread takes 4 arguments ->
+    a) memory address to read into
+    b) memory size to read
+    c) number of blocks to read
+    d) file from which we will read
+
+4.  fwrite?
+=>  fwrite works same but moves block of bytes from memory to file
+
+5.  fseek?
+=>  moves the file pointer to byte in file
+
+6.  SEEK_SET SEEK_CUR SEEK_END?
+=>  SEEK_SET - moves x byte down from beginning 
+    SEEK_CUR - moves x byte down from current position
+    SEEK_END - moves x byte down from end of file
+    
+7.
